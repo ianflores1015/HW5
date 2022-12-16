@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Ksu.Cis300.Scheduler.LinkedListCell&lt;T&gt;">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>LinkedListCell.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Next" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ksu.Cis300.Scheduler.UserInterface">
+    <Position X="3" Y="3.5" Width="2.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="uxComputedScheduleDataGrid" Hidden="true" />
+      <Field Name="uxComputedScheduleTab" Hidden="true" />
+      <Field Name="uxComputeSchedule" Hidden="true" />
+      <Field Name="uxGetInputFile" Hidden="true" />
+      <Field Name="uxInputFileName" Hidden="true" />
+      <Field Name="uxLength" Hidden="true" />
+      <Field Name="uxLengthLabel" Hidden="true" />
+      <Field Name="uxOpenDialog" Hidden="true" />
+      <Field Name="uxSaveDialog" Hidden="true" />
+      <Field Name="uxScheduleDataGrid" Hidden="true" />
+      <Field Name="uxScheduleDataTab" Hidden="true" />
+      <Field Name="uxScheduleView" Hidden="true" />
+      <Field Name="uxStatsTextBox" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAQBAACAGEABAUAAMCAAAACAAAAACAAJAQAABBAMAA=</HashCode>
+      <FileName>UserInterface.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ksu.Cis300.Scheduler.Worker">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAQAAEAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>Worker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ksu.Cis300.Scheduler.WorkerQueue">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAIAAAABAAQAAAAAAQAAAAABACAAAAAAAAAAAA=</HashCode>
+      <FileName>WorkerQueue.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_front" />
+      <Field Name="_back" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Ksu.Cis300.Scheduler.Scheduler">
+    <Position X="0.5" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAACAAAIGAAAAAAAAAAAAAAEAAAAAAAAoQAAgAAA=</HashCode>
+      <FileName>Scheduler.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Workers" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
